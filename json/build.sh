@@ -46,7 +46,7 @@ dotnet build -c Release
 
 gem install yajl-ruby
 
-wget -qO - https://cpanmin.us | perl - -L perllib Cpanel::JSON::XS JSON::Tiny File::Slurper
+curl -sSL https://cpanmin.us | perl - -L perllib Cpanel::JSON::XS JSON::Tiny File::Slurper
 
 # haskell
 cd json-hs; make; cd ..
