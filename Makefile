@@ -40,8 +40,8 @@ ALL=$(GOBIN) $(GCCGOBIN) $(NIMGCC) $(NIMCLANG)
 
 all: $(ALL) $(JSON)
 
-$(JSON): json/generate_json.rb
-	cd json && ruby generate_json.rb
+$(JSON): json/generate_json.py
+	$< > $@
 
 clean:
 	rm -f $(ALL)
