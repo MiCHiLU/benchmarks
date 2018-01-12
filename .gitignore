@@ -1,8 +1,5 @@
-/base64/base64_*
-/brainfuck/brainfuck_*
-/brainfuck2/bin_*
-/havlak/havlak_*
-/json/*.json
-/json/json_*
-/matmul/matmul_*
+*_go
+*_nim_clang
+*_nim_gcc
+/json/1.json
 nimcache
